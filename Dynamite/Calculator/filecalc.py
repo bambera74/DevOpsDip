@@ -12,6 +12,8 @@ def calculator (operator, num1, num2):
             line_sum = num1*num2
         if operator == '/':
             line_sum = num1/num2
+        if operator == '^':
+            line_sum = pow(num1,num2)
         return(line_sum)
 
 
